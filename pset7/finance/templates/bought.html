@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Bought
+{% endblock %}
+
+{% block main %}
+    <ul class="list-group">
+        <li class="list-group-item">{{shares}} shares of {{name}} at {{price}}/share was successfully purchased!</li>
+    </ul>
+{% endblock %}
